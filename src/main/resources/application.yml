@@ -27,8 +27,6 @@ eureka:
       defaultZone: ${EUREKA_SERVER_URL:http://discovery.platform:8761/eureka/}
   instance:
     prefer-ip-address: true
-    ip-address: 127.0.0.1
-    hostname: localhost
 
 management:
   endpoints:
